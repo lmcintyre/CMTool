@@ -2481,20 +2481,20 @@ namespace ConceptMatrix.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 3D Pose Matrix.
+        /// </summary>
+        public static string PoseMatrix3D {
+            get {
+                return ResourceManager.GetString("PoseMatrix3D", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Posing Matrix.
         /// </summary>
         public static string PosingMatrix {
             get {
                 return ResourceManager.GetString("PosingMatrix", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Posing Matrix(old).
-        /// </summary>
-        public static string PosingMatrixOld {
-            get {
-                return ResourceManager.GetString("PosingMatrixOld", resourceCulture);
             }
         }
         

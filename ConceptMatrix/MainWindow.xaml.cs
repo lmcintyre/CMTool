@@ -1295,9 +1295,6 @@ namespace ConceptMatrix
                 MainViewModel.ViewTime5.LoadCMP.IsEnabled = true;
                 MainViewModel.ViewTime5.AdvLoadCMP.IsEnabled = true;
 
-                MainViewModel.ViewTime6.PoseMatrixSetting.IsEnabled = true;
-                MainViewModel.ViewTime6.LoadCMP.IsEnabled = true;
-                MainViewModel.ViewTime6.AdvLoadCMP.IsEnabled = true;
                 if (SaveSettings.Default.UnfreezeOnGp == true) ActorDataUnfreeze();
             }
         }
@@ -1373,12 +1370,6 @@ namespace ConceptMatrix
                 // just in case?
                 PoseMatrixView.PosingMatrix.PoseMatrixSetting.IsEnabled = false;
                 PoseMatrixView.PosingMatrix.EditModeButton.IsChecked = false;
-
-                MainViewModel.ViewTime6.PoseMatrixSetting.IsEnabled = false;
-                MainViewModel.ViewTime6.EditModeButton.IsChecked = false;
-
-                CharacterDetailsView5.PosingMatrix.PoseMatrixSetting.IsEnabled = false;
-                CharacterDetailsView5.PosingMatrix.EditModeButton.IsChecked = false;
 
                 MainViewModel.ViewTime5.LoadCMP.IsEnabled = false;
                 MainViewModel.ViewTime5.AdvLoadCMP.IsEnabled = false;

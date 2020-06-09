@@ -956,8 +956,8 @@
   <data name="PosingMatrix" xml:space="preserve">
     <value>Posing Matrix</value>
   </data>
-  <data name="PosingMatrixOld" xml:space="preserve">
-    <value>Posing Matrix(old)</value>
+  <data name="PoseMatrix3D" xml:space="preserve">
+    <value>3D Pose Matrix</value>
   </data>
   <data name="PosSettingsLoadToolTip" xml:space="preserve">
     <value>Load actor position from file.

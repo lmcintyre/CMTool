@@ -201,8 +201,8 @@
     <Compile Include="Views\CharacterDetailsView4.xaml.cs">
       <DependentUpon>CharacterDetailsView4.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\CharacterDetailsView5.xaml.cs">
-      <DependentUpon>CharacterDetailsView5.xaml</DependentUpon>
+    <Compile Include="Views\PoseMatrixView3D.xaml.cs">
+      <DependentUpon>PoseMatrixView3D.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\PoseMatrixView.xaml.cs">
       <DependentUpon>PoseMatrixView.xaml</DependentUpon>
@@ -295,7 +295,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\CharacterDetailsView5.xaml">
+    <Page Include="Views\PoseMatrixView3D.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

@@ -1,0 +1,28 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ConceptMatrix.Views"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:Converters="clr-namespace:ConceptMatrix.Converters"
+             xmlns:resx="clr-namespace:ConceptMatrix.Resx"
+             x:Class="ConceptMatrix.Views.PoseMatrixView3D"
+             mc:Ignorable="d"
+             d:DesignHeight="530" d:DesignWidth="1115" Height="530">
+    <UserControl.Resources>
+        <Converters:QuaternionConverter x:Key="QuaternionConverter" />
+        <Style x:Name="HeaderTabs" x:Key="MenuLevel2" BasedOn="{StaticResource MetroTabItem}" TargetType="{x:Type TabItem}">
+            <Setter Property="mah:ControlsHelper.HeaderFontSize" Value="20"></Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Height="530" Width="1119">
+        <Grid.Background>
+            <ImageBrush x:Name="PoseBG" ImageSource="/ConceptMatrix;component/Resources/posebg.png"/>
+        </Grid.Background>
+        
+
+    </Grid>
+</UserControl>

@@ -28,7 +28,6 @@ namespace ConceptMatrix.ViewModel
         public static int gameProcId = 0;
         public static ThreadWriting ThreadTime;
         public static RotationView RotTime;
-        public static CharacterDetailsView5 ViewTime6;
         public static PoseMatrixView ViewTime5;
         public static PoseMatrixViewModel PoseMatrixVM;
         public static CharacterDetailsView4 ViewTime4;
@@ -103,7 +102,6 @@ namespace ConceptMatrix.ViewModel
                 PoseMatrixVM = new PoseMatrixViewModel();
                 PoseMatrixViewModel.PoseVM.InitBonetree();
                 ViewTime5.DataContext = PoseMatrixVM;
-                ViewTime6.DataContext = PoseMatrixVM;
                 ViewTime5.RotationUpDown.DataContext = this;
                 ViewTime5.RotationUpDown2.DataContext = this;
                 ViewTime5.RotationUpDown3.DataContext = this;
